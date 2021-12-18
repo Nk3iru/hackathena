@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import StudentForm from './studentForm/studentForm';
+import SelectCollege from './professionalsForm/selectedStudents';
 import reportWebVitals from './reportWebVitals';
+//import SelectMajors from './professionalsForm/selectMajors';
+//import SelectedStudents from './professionalsForm/selectedStudents';
+import StudentForm from './studentForm/studentForm';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   <StudentForm/>
   </React.StrictMode>,
   document.getElementById('root')
 );

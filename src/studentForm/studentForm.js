@@ -8,9 +8,8 @@ function StudentForm(){
     const [school, setSchool] = useState("");
     const [major, setMajor] = useState("");   
 
+   
     render()
-    {
-        render()
     {
         return(
         <form>
@@ -31,6 +30,6 @@ function StudentForm(){
         );
     }
 }
-}
+
     
 ReactDOM.render(<StudentForm/>, document.getElementById('root'));
